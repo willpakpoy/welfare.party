@@ -5,12 +5,18 @@
   "repository": "git@github.com:willpakpoy/welfare.party.git",
   "author": "Will Pak Poy (Mac) <0521858@radford.act.edu.au>",
   "license": "MIT",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.11.1"
-  },
   "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
     "eleventy-plugin-sass": "^1.1.1",
     "npm-run-all": "^4.1.5",
     "sass": "^1.32.8"
+  },
+  "scripts": {
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
+    "watch:sass": "sass --watch ./styles:./static/css",
+    "build:sass": "sass ./styles:./static/css",
+    "watch": "npm-run-all build:sass -p watch:*",
+    "build": "npm-run-all build:sass build:eleventy"
   }
 }

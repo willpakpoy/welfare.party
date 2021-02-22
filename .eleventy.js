@@ -1,17 +1,11 @@
-const pluginSass = require("eleventy-plugin-sass");
-
-const sassPluginOptions = {
-    watch: [
-        'styles/*.{scss,sass}'
-    ]
-}
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(pluginSass, sassPluginOptions);
   eleventyConfig.addPassthroughCopy("static");
+  eleventyConfig.addWatchTarget("./static/css/**/*");
 
   return {
     dir: {
-      input: "content"
+      input: "content",
+      includes: "../_includes"
     }
   };
 
