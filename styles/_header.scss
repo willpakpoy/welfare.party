@@ -1,20 +1,19 @@
 header {
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   .h-outer {
     height: var(--header-height-lock);
     background-color: var(--c-green);
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
     .h-inner {
       max-width: var(--default-page-margin-width);
       width: 100%;
-      //
+      ///
       display: flex;
       flex-direction: row;
       align-items: center;
       height: 70px;
-      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      margin-left: auto;
+      margin-right: auto;
 
       svg {
         padding: 8px;
@@ -41,12 +40,12 @@ header {
           display: grid;
           place-items: center;
           a {
-            color: #fff;
+            color: #fafafa;
             text-decoration: none;
             margin: 10px;
             transition: 0.2s all;
             &:hover {
-              color: #ffffff75;
+              color: #fafafa75;
               transition: 0.2s all;
             }
           }
@@ -54,4 +53,4 @@ header {
       }
     }
 }
-/////
+//////

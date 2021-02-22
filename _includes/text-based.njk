@@ -1,6 +1,11 @@
 {% extends "base.njk" %}
 
 {% block content %}
+    <div class="header-block-outer">
+        <div class="header-block-inner">
+            <h1>{{title}}</h1>
+        </div>
+    </div>
     <div class="paragraph">
         {{content | safe}}
     </div>
