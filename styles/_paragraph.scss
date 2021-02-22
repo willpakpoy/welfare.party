@@ -10,6 +10,7 @@
     background-color: #fc6;
     height: var(--header-height-lock);
     .header-block-inner {
+        padding: var(--default-inner-pad);
         width: 100%;
         max-width: var(--default-page-margin-width);
         margin-right: auto;
@@ -24,4 +25,4 @@
     }
 }
 
-///////
+/////////
