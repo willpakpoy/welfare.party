@@ -8,6 +8,7 @@
   </head>
   <body>
     {% include "./_header.njk" %}
-    {% block content %}{% endblock %}
+    <main>{% block content %}{% endblock %}</main>
+    {% include "./_footer.njk" %}
   </body>
 </html>

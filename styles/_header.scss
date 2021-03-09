@@ -3,6 +3,7 @@ header {
   .h-outer {
     height: var(--header-height-lock);
     background-color: var(--c-green);
+    border-radius: 0 0 8px 8px
   }
     .h-inner {
       max-width: var(--default-page-margin-width);
@@ -14,7 +15,7 @@ header {
       height: 70px;
       margin-left: auto;
       margin-right: auto;
-      padding: var(--default-inner-pad);
+      padding: 0 var(--default-inner-pad);
 
       svg {
         padding: 8px;
@@ -54,4 +55,4 @@ header {
       }
     }
 }
-///////
+///////////

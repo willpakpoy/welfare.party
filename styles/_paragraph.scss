@@ -1,7 +1,7 @@
 .paragraph {
     width: 100%;
     max-width: var(--default-page-margin-width);
-    padding: var(--default-inner-pad);
+    padding: 0 var(--default-inner-pad);
     margin-left: auto;
     margin-right: auto;
 }
@@ -20,9 +20,14 @@
         height: 100%;
         h1 {
             margin: 0px;
-            color: #fafafa;
         }
     }
 }
 
-/////////
+main {
+    position: relative;
+    top: -8px;
+    z-index: -1
+}
+
+//////////////
