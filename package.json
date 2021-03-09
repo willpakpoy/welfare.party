@@ -13,6 +13,6 @@
   },
   "scripts": {
     "watch": "eleventy --serve",
-    "build": "eleventy",
+    "build": "eleventy"
   }
 }
