@@ -12,11 +12,7 @@
     "sass": "^1.32.8"
   },
   "scripts": {
-    "watch:eleventy": "eleventy --serve",
-    "build:eleventy": "eleventy",
-    "watch:sass": "sass --watch ./styles:./static/css",
-    "build:sass": "sass ./styles:./static/css",
-    "watch": "npm-run-all build:sass -p watch:*",
-    "build": "npm-run-all build:sass build:eleventy"
+    "watch": "eleventy --serve",
+    "build": "eleventy",
   }
 }
