@@ -1,0 +1,12 @@
+.hero {
+    display: flex;
+    filter: brightness(0.2);
+    .hero-text {
+        max-width: var(--default-page-margin-width);
+        padding: var(--default-inner-pad);
+    }
+    &#hero-home-welcome {
+        background-image: url("/static/images/pages/wfp-home-hero-welcome.jpg")
+    }
+}
+
