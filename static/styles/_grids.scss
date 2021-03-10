@@ -1,0 +1,22 @@
+.three {
+    @media screen and (min-width: 720px){
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+
+        img {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            object-fit: fill
+        }
+        h2 {
+            margin-bottom: 0.75em;
+        }
+    }
+    @media screen and (max-width: 720px) {
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}
