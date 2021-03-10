@@ -3,7 +3,7 @@ layout: text-based.njk
 title: About Us
 ---
 
-# Solving the issue with homelessness
+# Solving the issues with homelessness
 
 We believe that the current issue with homelessness is a growing issue and needs to be worked on. It is basic, human rights, to live in a comfortable dwelling.
 
