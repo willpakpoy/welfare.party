@@ -28,28 +28,36 @@ header {
         }
       }
 
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        height: 100%;
+      .navbar {
+        overflow: hidden;
         margin-left: auto;
-        li {
+        a {
           float: left;
-          height: 100%;
-          position: relative;
-          display: grid;
-          place-items: center;
-          a {
-            color: #fafafa;
-            text-decoration: none;
-            margin: 10px;
+          color: #fafafa;
+          text-decoration: none;
+          margin: 10px;
+          transition: 0.2s all;
+          &:hover {
+            color: #fafafa75;
             transition: 0.2s all;
-            &:hover {
-              color: #fafafa75;
-              transition: 0.2s all;
-            }
           }
+        }
+
+        .subnav {
+          float: left;
+          overflow: hidden;
+        }
+        button {
+          background-color: transparent;
+          border: none;
+          float: left;
+          color: #fafafa;
+          text-decoration: none;
+          margin: 10px;
+          transition: 0.2s all;
+          font-family: inherit;
+          font-size: 16px;
+          padding: 0px;
         }
       }
     }
