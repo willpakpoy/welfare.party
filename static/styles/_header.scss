@@ -1,7 +1,7 @@
 header {
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   .h-outer {
-    height: var(--header-height-lock);
+    //height: var(--header-height-lock);
     background-color: var(--c-green);
   }
     .h-inner {
@@ -16,9 +16,19 @@ header {
       margin-right: auto;
       padding: 0 var(--default-inner-pad);
 
+      @media screen and (max-width: 640px) {
+        display: block;
+        height: initial;
+      }
+      .logo {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+      }
       svg {
         padding: 8px;
         height: 100%;
+        max-height: 70px;
         margin-right: 4px;
         &:nth-child(2) {
           padding-left: 0px;
@@ -35,11 +45,14 @@ header {
           float: left;
           color: #fafafa;
           text-decoration: none;
-          margin: 10px;
+          margin: 16px;
           transition: 0.2s all;
           &:hover {
             color: #fafafa75;
             transition: 0.2s all;
+          }
+          &:first-child {
+            margin-left: 0px;
           }
         }
 
