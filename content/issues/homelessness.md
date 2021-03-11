@@ -1,9 +1,9 @@
 ---
 layout: text-based.njk
 title: Solving the issues with homelessness
+subtitle: "Written by Stuart Ward"
 slug: homelessness
 ---
-*Written by Stuart Ward*
 
 # Issue with homelessness 
 

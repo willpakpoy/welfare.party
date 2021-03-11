@@ -1,6 +1,7 @@
 ---
 layout: text-based.njk
 title: Ending workplace discrimination
+subtitle: "Written by Will Pak Poy"
 slug: workplace-discrimination
 ---
 

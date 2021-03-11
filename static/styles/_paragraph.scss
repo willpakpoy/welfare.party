@@ -15,11 +15,12 @@
         max-width: var(--default-page-margin-width);
         margin-right: auto;
         margin-left: auto;
-        display: flex;
-        align-items: center;
         height: 100%;
-        h1 {
+        h1, p {
             margin: 0px;
+        }
+        p {
+            margin-top: 12px;
         }
     }
 }
