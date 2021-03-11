@@ -1,6 +1,7 @@
 ---
 layout: text-based.njk
 title: Solving the issues with homelessness
+slug: homelessness
 ---
 *Written by Stuart Ward*
 

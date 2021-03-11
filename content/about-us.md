@@ -1,6 +1,7 @@
 ---
 layout: text-based.njk
 title: About Us
+slug: about-us
 ---
 
 # Solving the issues with homelessness

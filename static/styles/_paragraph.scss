@@ -8,7 +8,7 @@
 
 .header-block-outer {
     background-color: #fc6;
-    height: var(--header-height-lock);
+    //height: var(--header-height-lock);
     .header-block-inner {
         padding: var(--default-inner-pad);
         width: 100%;
@@ -24,16 +24,24 @@
     }
 }
 
+.workplace-discrimination {
+    main {
+        blockquote {
+            width: 100%;
+            font-size: 3em;
+            margin-left: 0px;
+        }
+        ul {
+            font-size: 2em;
+        }
+    }
 
-main {
-    blockquote {
-        width: 100%;
-        font-size: 3em;
-        margin-left: 0px;
-    }
-    img {
-        width: 100%;
-    }
+    
+}
+
+
+main img {
+    width: 100%;
 }
 
 

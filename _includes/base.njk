@@ -6,7 +6,7 @@
     <title>{{ title }} | WelfareParty</title>
     <link rel="stylesheet" href="/static/styles/universal.css">
   </head>
-  <body>
+  <body class="{{ slug }}">
     {% include "./_header.njk" %}
     <main>{% block content %}{% endblock %}</main>
     {% include "./_footer.njk" %}
